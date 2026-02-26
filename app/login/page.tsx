@@ -7,7 +7,7 @@ import { auth } from "@/lib/firebase"
 import { ShieldCheck, Sparkles } from "lucide-react"
 
 export default function LoginPage() {
-  const [email, setEmail] = useState("asdx@ds.com")
+  const [email, setEmail] = useState("hiertw@dag.com")
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
